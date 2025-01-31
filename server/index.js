@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.listen(PORT, () => {
-  console.log(`Serever is running on Port:${PORT}`);
+  console.log(`Server is running on Port:${PORT}`);
   ConnectDB();
 });
 
